@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff9966, #8a2be2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-box {
+    width: 360px;
+    background: rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(12px);
+    padding: 30px 25px;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+}
+
+.card-box h3 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.form-label {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.input-group {
+    background: rgba(255,255,255,0.15);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.input-group-text {
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+.form-control {
+    background: transparent;
+    border: none;
+    color: #fff;
+}
+
+.form-control::placeholder {
+    color: #ddd;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    background: transparent;
+    color: #fff;
+}
+
+.btn-main {
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 600;
+    background: linear-gradient(90deg, #ff9966, #6a5acd);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.btn-main:hover {
+    transform: scale(1.03);
+}
+
+.text-center {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.text-center a {
+    color: #ffb3ff;
+    text-decoration: none;
+}
+
+.text-center a:hover {
+    text-decoration: underline;
+}
